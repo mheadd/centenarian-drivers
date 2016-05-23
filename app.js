@@ -32,7 +32,7 @@ $(document).ready(function() {
   });
 });
 
-// Base URL & query for API calls.
+// Base URL & SQL query for API calls.
 var base_url = 'https://data.ny.gov/resource/whvr-7yjm.json';
 var query_base = '?$query=select%20count(*),%20residence_county%20where%20year_of_birth%20<%201916%20and%20status%20=%20%27VALID%27%20and%20license_class%20=%20%27D%27%20and%20privilege%20=%20%27FULL%27%20and%20residence_county%20!=%20%27OUT-OF-STATE%27%20%20group%20by%20residence_county%20order%20by%20count%20desc';
 
