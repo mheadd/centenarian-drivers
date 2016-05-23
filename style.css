@@ -1,0 +1,9 @@
+body {
+  margin-top: 40px;
+}
+.hide {
+  display: none;
+}
+.alert {
+  text-align: center;
+}
